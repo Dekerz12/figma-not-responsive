@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: hsl(98, 14%, 85%);
+  height: 100vh;
+}
+
+.container {
+  margin: auto;
+  max-width: 120em;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 4.6rem;
+  margin-bottom: 0.56em;
+}
+
+p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-bottom: 5.2em;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 1.3em;
+}
+
+.link a {
+  color: #406a29;
+  text-decoration: none;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.images {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 2.7em;
+}
+
+.images > * {
+  flex-basis: 17.5em;
+}
+
+.flex {
+  background-color: hsl(0, 0%, 100%);
+
+  display: flex;
+  gap: 13.5em;
+  padding: 8.4em;
+  border-radius: 0.8em;
+}

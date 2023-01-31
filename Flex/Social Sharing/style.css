@@ -1,0 +1,79 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d1d1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+svg {
+  max-width: 100%;
+}
+
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 1.2em;
+  padding: 5.5em;
+}
+
+.digg,
+.dribble,
+.linkedin,
+.git {
+  flex-basis: 25%;
+}
+
+.skype,
+.behance {
+  width: 15em;
+}
+
+@media only screen and (max-width: 550px) {
+  .digg,
+  .dribble,
+  .linkedin {
+    flex-basis: 33.33%;
+  }
+
+  .git,
+  .skype,
+  .behance {
+    flex-basis: 33.33%;
+  }
+  .container {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .digg,
+  .dribble {
+    flex-basis: 50%;
+  }
+
+  .git,
+  .linkedin {
+    flex-basis: 50%;
+  }
+
+  .skype,
+  .behance {
+    flex-basis: 50%;
+  }
+  .container {
+    justify-content: center;
+  }
+}

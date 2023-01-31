@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  padding: 23em 0;
+  background-color: #dae0ea;
+}
+
+h1 {
+  font-style: normal;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.3rem;
+  line-height: 5.2rem;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 144.52%;
+  padding-top: 1.27em;
+  padding-bottom: 2.73em;
+  width: 35ch;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+h2.button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: white;
+}
+
+.btn {
+  display: flex;
+  background-color: #1a63dd;
+  padding: 1.7em 2.3em;
+  border-radius: 0.5em;
+  max-width: 21.6em;
+  max-height: 6em;
+  align-items: center;
+  justify-content: center;
+  gap: 1.7em;
+}
+
+.grid {
+  display: grid;
+
+  grid-template-areas: 'content pics';
+  place-content: center;
+  gap: 12em;
+}
+
+.details {
+  grid-area: content;
+  position: relative;
+  align-self: end;
+}
+
+.bg {
+  top: -6.5em;
+  left: -5.5em;
+  position: absolute;
+  width: 15em;
+  height: 15em;
+  background-color: #c7d0e0;
+  z-index: -1;
+  border-radius: 1em;
+}
+
+.container {
+  margin-inline: auto;
+  width: min(90%, 150em);
+}
+
+.pics {
+  margin: 0 auto;
+  grid-area: pics;
+  display: grid;
+  grid-template-columns: 15em;
+  grid-template-areas:
+    'pic1 pic2 '
+    'pic1 pic3';
+  gap: 2.3em;
+}
+
+.pic1 {
+  grid-area: pic1;
+}
+
+.pic2 {
+  grid-area: pic2;
+}
+
+.pic3 {
+  grid-area: pic3;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Playfair+Display&display=swap');
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 20.7em;
+  position: relative;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6rem;
+  line-height: 6.9rem;
+  width: 5.6em;
+}
+
+p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 144.3%;
+  padding-top: 2em;
+  max-width: 32ch;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 115.3%;
+}
+
+.flex {
+  display: flex;
+}
+.links {
+  display: flex;
+  gap: 1.5em;
+}
+
+.details {
+  display: flex;
+  gap: 8em;
+  justify-content: center;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 15.6em;
+}
+
+hr:nth-of-type(1) {
+  border: none;
+  border-top: 10px dotted black;
+  color: #fff;
+  background-color: transparent;
+  height: 1px;
+  width: 10%;
+}
+
+hr:nth-of-type(2) {
+  border: none;
+  border-top: 10px dotted #e7e7e7;
+  width: 100%;
+}
+
+.line {
+  position: fixed;
+  bottom: 37.3em;
+  display: flex;
+  width: 100%;
+  gap: 1em;
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ced5e1;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #0e53ca;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 144.52%;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 144.52%;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 144.52%;
+  text-transform: uppercase;
+  padding-top: 0.56em;
+}
+
+.stats {
+  background-color: #eaeef4;
+  box-shadow: 0px 10px 29px 0px #b6c0d1;
+  display: grid;
+  padding: 2.6em 2.2em;
+  grid-template-areas:
+    'first first second'
+    'third fourth fifth';
+  width: 70.6em;
+  height: 27.7em;
+  border-radius: 1.2em;
+
+  gap: 2.6em;
+}
+
+.box:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  gap: 1.8em;
+  background-color: white;
+  padding: 3.5em 0 3.5em 2.8em;
+  border-radius: 0.9em;
+  grid-area: first;
+}
+
+.box:nth-of-type(2) {
+  align-self: end;
+  grid-area: second;
+}
+
+.box:nth-of-type(3) {
+  padding-left: 2.2em;
+  grid-area: third;
+}
+
+.box:nth-of-type(4) {
+  padding-left: 2.2em;
+  grid-area: fourth;
+}
+
+.box:nth-of-type(5) {
+  grid-area: fifth;
+}

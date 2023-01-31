@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6e6e6;
+  height: 100vh;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+h1 {
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    'a b'
+    'a c';
+  column-gap: 2.7em;
+  row-gap: 2.5em;
+}
+
+.img1 {
+  position: relative;
+  grid-area: a;
+  place-self: center;
+  overflow: hidden;
+}
+
+.img2 {
+  position: relative;
+  grid-area: b;
+}
+
+.img3 {
+  position: relative;
+  grid-area: c;
+}
+
+.img1 > h1 {
+  bottom: 0;
+  left: -10px;
+}
+
+.img2 > h1 {
+  left: -6px;
+}
+
+.img3 > h1 {
+  bottom: 0.4em;
+  left: -6px;
+}

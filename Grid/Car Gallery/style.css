@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #1f1f1f;
+}
+
+.cars {
+  padding-top: 15.2em;
+  display: grid;
+  grid-template-columns: repeat(3, 33.7em);
+  grid-template-rows: 20.2em 31.11em;
+  grid-template-areas:
+    'header header header '
+    'side footer footer';
+  place-content: center;
+}
+
+cars:nth-child(1) {
+  grid-area: header;
+}
+
+cars:nth-child(2) {
+  grid-area: header;
+}
+
+cars:nth-child(3) {
+  grid-area: header;
+}
+
+cars:nth-child(4) {
+  grid-area: side;
+}
+
+cars:nth-child(5) {
+  grid-area: footer;
+}
+
+@media only screen and (min-width: 834px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}

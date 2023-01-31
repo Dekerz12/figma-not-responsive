@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fcf5eb;
+  font-family: "Playfair Display", serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4.4rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 0.91em;
+}
+
+hr {
+  height: 1px;
+  background-color: black;
+  border: none;
+  margin: 3.5em 0;
+}
+
+.box {
+  max-width: 27em;
+}
+
+.news {
+  margin: 0 13.4em;
+}
+
+.content {
+  display: flex;
+  gap: 6em;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.43em;
+}

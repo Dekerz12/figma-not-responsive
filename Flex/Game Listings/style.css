@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+  font-weight: 700;
+  background-color: #e2f1ff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #e2f1ff;
+  padding: 3.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+  border-radius: 1.1em;
+  box-shadow: 10px 10px 40px 0px #a7c3dd7d;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #697e90;
+  font-size: 1rem;
+  margin-bottom: 2.5em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+}
+
+.list:nth-child(3) {
+  margin-left: 5em;
+  margin-right: 6.5em;
+}
+
+td {
+  text-transform: capitalize;
+}
+
+.rank {
+  color: #2c4257;
+}
+
+.game {
+  font-weight: 500;
+}

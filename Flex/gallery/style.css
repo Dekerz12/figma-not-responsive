@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+
+span {
+  color: #07801e;
+}
+
+img {
+  max-width: 28.5em;
+  border-radius: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  margin-top: 7.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+svg {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .card .img-2 {
+    flex-basis: 50%;
+  }
+}

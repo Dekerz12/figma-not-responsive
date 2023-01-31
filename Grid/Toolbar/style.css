@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6e6e6;
+  height: 100vh;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+.box:nth-of-type(2) > h1 {
+  color: white;
+}
+
+p,
+ul,
+li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  gap: 1.1em;
+  width: 90em;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  border-radius: 0.7em;
+}
+.flex {
+  justify-content: space-between;
+}
+
+.flex-img {
+  display: flex;
+  gap: 2.5em;
+}
+.flex-images {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+}
+.box:nth-of-type(1) {
+  padding: 2.8em 2.2em;
+  background-color: white;
+  grid-column: 1/13;
+}
+
+.box:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2793ff;
+  grid-column: 13/17;
+  max-width: 18.2em;
+}
+
+.box:nth-of-type(3) {
+  outline: 2px solid #b1b1b1;
+  padding: 1.6em 2em;
+  grid-column: 1/10;
+}
+
+.box:nth-of-type(4) {
+  place-self: center;
+  grid-column: 10/17;
+}

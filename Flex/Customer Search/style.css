@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+  background-color: #1d1d1d;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #3662b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.2em;
+  padding: 1.5em;
+  flex-direction: column;
+}
+.searchbar {
+  width: 30em;
+  padding: 2em;
+  background-color: #517fd9;
+  border-radius: 0.4em;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5em;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #85a9f1;
+  margin-bottom: 11.333333em;
+}
+
+.button {
+  font-weight: 700;
+  text-align: center;
+  color: #9fb8ea;
+  background-color: #14274b;
+  font-size: 1.5rem;
+  width: 20em;
+  padding: 1.33em 0;
+  border-radius: 0.267em;
+}

@@ -1,0 +1,47 @@
+.card {
+  width: 29em;
+  background-color: #2f3740;
+  padding: 1.9em;
+  border-radius: 1.4em;
+}
+
+.card img {
+  width: 25.2em;
+  height: 17.2em;
+  margin-bottom: 1.3em;
+  border-radius: 0.7em;
+  align-self: center;
+}
+
+.tag {
+  background-color: #455260;
+  color: #beff00;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.4em 0.6em;
+  border-radius: 0.2em;
+  margin-bottom: 1.67em;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+  margin-bottom: 0.97em;
+}
+
+.card .cta {
+  display: flex;
+  gap: 0.6em;
+}
+.card .cta > span {
+  color: #b1c4d9;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.card .cta svg {
+  align-self: center;
+}

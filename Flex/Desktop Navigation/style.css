@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  background-color: hsl(210, 22%, 93%);
+}
+
+a {
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  text-decoration: none;
+}
+
+a:first-child {
+  font-weight: 700;
+}
+
+a:hover {
+  color: #0460bc;
+}
+
+.container {
+  margin-inline: auto;
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  gap: 3.6em;
+}
+
+.space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  background-color: #dbe1e8;
+  padding: 3em 12em;
+}
+
+section {
+  padding: 9.7em 12em;
+}
+
+.cart {
+  cursor: pointer;
+}
+.cart + img:hover {
+  color: #b5c0ce;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4em;
+}
+
+.line1 {
+  background-color: #dbe1e8;
+  width: 45.2em;
+  height: 3.5em;
+  border-radius: 4.5em;
+}
+
+.line2 {
+  background-color: #dbe1e8;
+  width: 29.6em;
+  height: 3.5em;
+  border-radius: 4.5em;
+}
